@@ -16,7 +16,6 @@
   src = nix-gitignore.gitignoreSource [ ''
     /*.nix
     /.github/
-    /testdata/
   '' ] ./.;
 
   cargoSha256 = "0vqwll1iya9iak4vwidyxnxyiw8f7gycdj13rxqyisqbg4wrg9c3";
